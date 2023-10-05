@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+@font-face {
+  font-family: "Inter"; 
+  src: local("AirbnbCerealLight"),
+    url("../public/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.Inter {
+  font-family: "Inter", Fallback, sans-serif;
+}
